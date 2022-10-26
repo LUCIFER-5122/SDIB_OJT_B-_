@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"ALL_RELATIONAL_OPERATORS.C": "cpp",
+			"stdlib.h": "c",
+			"hhc.h": "c",
+			"64.C": "cpp",
+			"69.C": "cpp"
+		}
+	}
+}

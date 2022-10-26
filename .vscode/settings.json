@@ -1,6 +1,8 @@
 {
     "files.associations": {
-        "ALL_RELATIONAL_OPERATORS.C": "cpp"
+        "ALL_RELATIONAL_OPERATORS.C": "cpp",
+        "stdlib.h": "c",
+        "hhc.h": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }

@@ -1,15 +1,14 @@
 #include<stdio.h>
-#include<stdlib.h>
-enum state {OFF,ON};
+enum led {ON,OFF};
 void main()
 {
-    enum state n;
-    printf("\nEnter the value 1 for ON and 0 for OFF\n");
-    scanf("%d",&n);
-    switch(n)
-    {
-        case ON : printf("pin is -> HIGH"); break;
-        case OFF : printf("pin is -> LOW"); break;
-        default : exit(0);
-    }
+    enum led state;
+    int l;
+    printf("Enter the state:\n");
+    scanf("%d",&state);
+    if(state == ON)
+        printf("LED ON");
+    else if(state == OFF)
+        printf("LED OFF");
+
 }
